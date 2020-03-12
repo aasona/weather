@@ -12,15 +12,13 @@ use GuzzleHttp\Client;
  * Date: 2020/3/6
  * Time: 14:09
  */
-
-
 class Weather
 {
     protected $key;
     protected $guzzleOptions = [];
 
-    public function __construct(string $key) {
-
+    public function __construct(string $key)
+    {
         $this->key = $key;
     }
 
@@ -35,7 +33,6 @@ class Weather
         $this->guzzleOptions = $options;
     }
 
-
     public function getLiveWeather($city, $format = 'json')
     {
         return $this->getWeather($city, 'live', $format);
@@ -45,7 +42,6 @@ class Weather
     {
         return $this->getWeather($city, 'forecast', $format);
     }
-
 
     public function getWeather($city, string $type = 'live', string $format = 'json')
     {
