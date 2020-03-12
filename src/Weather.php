@@ -11,20 +11,16 @@ use aasona\weather\Exceptions\HttpException;
 use aasona\weather\Exceptions\InvalidArgumentException;
 use GuzzleHttp\Client;
 
-/**
- * Class Weather
- * @package aasona\weather
- */
 class Weather
 {
     protected $key;
+
     protected $guzzleOptions = [];
 
     public function __construct(string $key)
     {
         $this->key = $key;
     }
-
 
     public function getHttpClient()
     {
@@ -70,10 +66,12 @@ class Weather
             $response = $this->getHttpClient()->get($url, [
                 'query' => $query,
             ])->getBody()->getContents();
+
             return 'json' === $format ? \json_decode($response, true) : $response;
         } catch (\Exception $e) {
             throw new HttpException($e->getMessage(), $e->getCode(), $e);
         }
     }
+
 
 }
