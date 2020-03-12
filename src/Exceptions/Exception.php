@@ -8,6 +8,4 @@ namespace aasona\weather\Exceptions;
 
 class Exception extends \Exception
 {
-
-
 }

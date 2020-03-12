@@ -135,6 +135,4 @@ class WeatherTest extends TestCase
         // 断言正确传参并返回
         $this->assertSame(['success' => true], $w->getForecastsWeather('深圳'));
     }
-
-
 }

@@ -11,6 +11,4 @@ namespace aasona\weather\Exceptions;
 
 class HttpException extends Exception
 {
-
-    
 }

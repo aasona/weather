@@ -72,6 +72,4 @@ class Weather
             throw new HttpException($e->getMessage(), $e->getCode(), $e);
         }
     }
-
-
 }

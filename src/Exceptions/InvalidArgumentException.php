@@ -11,6 +11,4 @@ namespace aasona\weather\Exceptions;
 
 class InvalidArgumentException extends Exception
 {
-
-
 }
