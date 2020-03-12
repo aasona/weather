@@ -5,9 +5,7 @@
  * Time: 15:58.
  */
 
-
 namespace aasona\weather\Exceptions;
-
 
 class InvalidArgumentException extends Exception
 {

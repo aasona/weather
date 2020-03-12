@@ -4,6 +4,7 @@
  * Date: 2020/3/12
  * Time: 15:58.
  */
+
 namespace aasona\weather\Exceptions;
 
 class Exception extends \Exception
