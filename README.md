@@ -27,7 +27,7 @@ $ composer require aasona/weather -vvv
 
 ## 使用
 ```
-use Aasona\weather\weather;
+use aasona\weather\weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 

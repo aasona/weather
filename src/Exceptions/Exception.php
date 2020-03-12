@@ -6,7 +6,7 @@
  * Time: 14:41
  */
 
-namespace Aasona\weather\Exceptions;
+namespace aasona\weather\Exceptions;
 
 class Exception extends \Exception
 {

@@ -7,7 +7,7 @@
  */
 
 
-namespace Aasona\weather;
+namespace aasona\weather;
 
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider

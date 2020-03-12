@@ -7,7 +7,7 @@
  */
 
 
-namespace Aasona\weather\Exceptions;
+namespace aasona\weather\Exceptions;
 
 
 class InvalidArgumentException extends Exception

@@ -7,7 +7,7 @@
  */
 
 
-namespace Aasona\weather\Exceptions;
+namespace aasona\weather\Exceptions;
 
 
 class HttpException extends Exception

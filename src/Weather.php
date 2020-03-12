@@ -1,9 +1,9 @@
 <?php
 
-namespace Aasona\weather;
+namespace aasona\weather;
 
-use Aasona\weather\Exceptions\HttpException;
-use Aasona\weather\Exceptions\InvalidArgumentException;
+use aasona\weather\Exceptions\HttpException;
+use aasona\weather\Exceptions\InvalidArgumentException;
 use GuzzleHttp\Client;
 
 /**

@@ -6,11 +6,11 @@
  * Time: 15:16
  */
 
-namespace Aasona\weather\tests;
+namespace aasona\weather\tests;
 
-use Aasona\weather\Exceptions\HttpException;
-use Aasona\weather\Exceptions\InvalidArgumentException;
-use Aasona\weather\weather;
+use aasona\weather\Exceptions\HttpException;
+use aasona\weather\Exceptions\InvalidArgumentException;
+use aasona\weather\weather;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
