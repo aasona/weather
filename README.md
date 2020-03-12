@@ -3,6 +3,7 @@
 <p align="center"> A weather SDK.</p>
 
 [![Build Status](https://travis-ci.com/aasona/weather.svg?branch=master)](https://travis-ci.com/aasona/weather)
+[![StyleCI](https://github.styleci.io/repos/246010760/shield?branch=master)](https://github.styleci.io/repos/246010760)
 ## 目录
 * 项目简介及创作动机
 * 项目维护、CI、依赖更新状态（如果有）
