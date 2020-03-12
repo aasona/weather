@@ -10,7 +10,7 @@ namespace aasona\weather\tests;
 
 use aasona\weather\Exceptions\HttpException;
 use aasona\weather\Exceptions\InvalidArgumentException;
-use aasona\weather\weather;
+use aasona\weather\Weather;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
