@@ -1,9 +1,8 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: yuanHb
- * Date: 2020/3/7
- * Time: 17:21
+ * User: yuanHb <1214846385@qq.com>
+ * Date: 2020/3/12
+ * Time: 15:58.
  */
 
 
@@ -16,7 +15,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
     public function register()
     {
-        $this->app->singleton(Weather::class, function(){
+        $this->app->singleton(Weather::class, function () {
             return new Weather(config('services.weather.key'));
         });
 
